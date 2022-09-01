@@ -20,6 +20,8 @@
 		857031C128BDA7DB00D25CAB /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857031C028BDA7DB00D25CAB /* APIKey.swift */; };
 		857031C328BDA88400D25CAB /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857031C228BDA88400D25CAB /* Person.swift */; };
 		857031C628BDB78400D25CAB /* URLSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857031C528BDB78400D25CAB /* URLSession+Extension.swift */; };
+		857031E828BEF8DB00D25CAB /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857031E728BEF8DB00D25CAB /* Observable.swift */; };
+		857031EA28BEFC0A00D25CAB /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857031E928BEFC0A00D25CAB /* PersonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		857031C028BDA7DB00D25CAB /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		857031C228BDA88400D25CAB /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		857031C528BDB78400D25CAB /* URLSession+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Extension.swift"; sourceTree = "<group>"; };
+		857031E728BEF8DB00D25CAB /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		857031E928BEFC0A00D25CAB /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 				857031AA28BD94D100D25CAB /* Assets.xcassets */,
 				857031AC28BD94D100D25CAB /* LaunchScreen.storyboard */,
 				857031AF28BD94D100D25CAB /* Info.plist */,
+				857031E728BEF8DB00D25CAB /* Observable.swift */,
 			);
 			path = SeSAC2Week9;
 			sourceTree = "<group>";
@@ -100,6 +105,7 @@
 			children = (
 				857031BB28BDA74A00D25CAB /* PersonAPIManager.swift */,
 				857031C228BDA88400D25CAB /* Person.swift */,
+				857031E928BEFC0A00D25CAB /* PersonViewModel.swift */,
 			);
 			path = Person;
 			sourceTree = "<group>";
@@ -195,9 +201,11 @@
 				857031A628BD94D000D25CAB /* ViewController.swift in Sources */,
 				857031C128BDA7DB00D25CAB /* APIKey.swift in Sources */,
 				857031B928BD9BD700D25CAB /* Lotto.swift in Sources */,
+				857031EA28BEFC0A00D25CAB /* PersonViewModel.swift in Sources */,
 				857031A228BD94D000D25CAB /* AppDelegate.swift in Sources */,
 				857031BC28BDA74A00D25CAB /* PersonAPIManager.swift in Sources */,
 				857031C628BDB78400D25CAB /* URLSession+Extension.swift in Sources */,
+				857031E828BEF8DB00D25CAB /* Observable.swift in Sources */,
 				857031A428BD94D000D25CAB /* SceneDelegate.swift in Sources */,
 				857031C328BDA88400D25CAB /* Person.swift in Sources */,
 				857031B728BD94F800D25CAB /* LottoAPIManager.swift in Sources */,
